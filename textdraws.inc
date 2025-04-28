@@ -1,0 +1,404 @@
+stock CreateCasinoPTD(playerid)
+{
+    CasinoPTD[playerid][0] = CreatePlayerTextDraw(playerid, 257.666564, 159.718475, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][0], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][0], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][0], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][0], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][0], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][0], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][0], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][0], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][0], 0);
+
+    CasinoPTD[playerid][1] = CreatePlayerTextDraw(playerid, 257.666564, 178.619628, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][1], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][1], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][1], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][1], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][1], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][1], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][1], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][1], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][1], 0);
+
+    CasinoPTD[playerid][2] = CreatePlayerTextDraw(playerid, 257.666564, 197.120758, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][2], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][2], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][2], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][2], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][2], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][2], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][2], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][2], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][2], 0);
+
+    CasinoPTD[playerid][3] = CreatePlayerTextDraw(playerid, 257.666564, 217.522003, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][3], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][3], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][3], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][3], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][3], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][3], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][3], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][3], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][3], 0);
+
+    CasinoPTD[playerid][4] = CreatePlayerTextDraw(playerid, 257.999908, 237.693664, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][4], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][4], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][4], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][4], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][4], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][4], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][4], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][4], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][4], 0);
+
+    CasinoPTD[playerid][5] = CreatePlayerTextDraw(playerid, 257.666564, 255.909484, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][5], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][5], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][5], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][5], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][5], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][5], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][5], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][5], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][5], 0);
+
+    CasinoPTD[playerid][6] = CreatePlayerTextDraw(playerid, 257.666564, 275.710693, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][6], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][6], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][6], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][6], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][6], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][6], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][6], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][6], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][6], 0);
+
+    CasinoPTD[playerid][7] = CreatePlayerTextDraw(playerid, 257.666564, 295.511901, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][7], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][7], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][7], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][7], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][7], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][7], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][7], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][7], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][7], 0);
+
+    CasinoPTD[playerid][8] = CreatePlayerTextDraw(playerid, 257.666564, 315.313171, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][8], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][8], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][8], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][8], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][8], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][8], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][8], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][8], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][8], 0);
+
+    CasinoPTD[playerid][9] = CreatePlayerTextDraw(playerid, 257.666564, 334.414306, "DENNY_WALKER");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][9], 0.196327, 1.015110);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][9], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][9], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][9], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][9], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][9], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][9], 1);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][9], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][9], 0);
+
+    CasinoPTD[playerid][10] = CreatePlayerTextDraw(playerid, 341.333526, 150.210952, ""); //кубик номер 1 (отсюда идет 1 столбик кубиков из 10 шт )
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][10], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][10], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][10], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][10], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][10], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][10], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][10], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][10], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][10], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][10], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][10], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][10], 270.000000, 0.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][11] = CreatePlayerTextDraw(playerid, 341.333557, 169.557174, ""); //кубик номер 3
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][11], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][11], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][11], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][11], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][11], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][11], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][11], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][11], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][11], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][11], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][11], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][11], 180.000000, 360.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][12] = CreatePlayerTextDraw(playerid, 341.333526, 188.488601, ""); //кубик номер 5
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][12], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][12], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][12], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][12], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][12], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][12], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][12], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][12], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][12], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][12], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][12], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][12], 180.000000, 360.000000, 270.000000, 1.000000);
+
+    CasinoPTD[playerid][13] = CreatePlayerTextDraw(playerid, 341.433502, 208.951934, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][13], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][13], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][13], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][13], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][13], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][13], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][13], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][13], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][13], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][13], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][13], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][13], 270.000000, 0.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][14] = CreatePlayerTextDraw(playerid, 341.433532, 228.298156, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][14], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][14], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][14], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][14], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][14], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][14], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][14], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][14], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][14], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][14], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][14], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][14], 180.000000, 360.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][15] = CreatePlayerTextDraw(playerid, 341.433502, 247.929626, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][15], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][15], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][15], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][15], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][15], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][15], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][15], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][15], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][15], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][15], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][15], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][15], 180.000000, 360.000000, 270.000000, 1.000000);
+
+    CasinoPTD[playerid][16] = CreatePlayerTextDraw(playerid, 341.666870, 268.433227, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][16], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][16], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][16], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][16], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][16], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][16], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][16], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][16], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][16], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][16], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][16], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][16], 270.000000, 0.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][17] = CreatePlayerTextDraw(playerid, 341.666900, 287.779418, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][17], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][17], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][17], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][17], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][17], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][17], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][17], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][17], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][17], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][17], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][17], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][17], 180.000000, 360.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][18] = CreatePlayerTextDraw(playerid, 341.666870, 306.710876, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][18], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][18], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][18], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][18], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][18], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][18], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][18], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][18], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][18], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][18], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][18], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][18], 180.000000, 360.000000, 270.000000, 1.000000);
+
+    CasinoPTD[playerid][19] = CreatePlayerTextDraw(playerid, 341.766845, 327.174255, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][19], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][19], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][19], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][19], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][19], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][19], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][19], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][19], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][19], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][19], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][19], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][19], 270.000000, 0.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][20] = CreatePlayerTextDraw(playerid, 357.534851, 150.436996, ""); //кубик номер 2 (отсюда идет 2 столбик кубиков из 10 шт )
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][20], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][20], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][20], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][20], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][20], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][20], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][20], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][20], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][20], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][20], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][20], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][20], 270.000000, 90.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][21] = CreatePlayerTextDraw(playerid, 357.534881, 169.983230, ""); //кубик номер 4
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][21], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][21], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][21], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][21], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][21], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][21], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][21], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][21], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][21], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][21], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][21], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][21], 270.000000, 270.000000, 270.000000, 1.000000);
+
+    CasinoPTD[playerid][22] = CreatePlayerTextDraw(playerid, 357.868194, 189.214675, ""); //кубик номер 6
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][22], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][22], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][22], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][22], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][22], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][22], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][22], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][22], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][22], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][22], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][22], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][22], 270.000000, 180.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][23] = CreatePlayerTextDraw(playerid, 357.868164, 209.092773, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][23], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][23], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][23], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][23], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][23], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][23], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][23], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][23], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][23], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][23], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][23], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][23], 270.000000, 90.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][24] = CreatePlayerTextDraw(playerid, 357.868194, 228.639007, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][24], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][24], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][24], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][24], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][24], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][24], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][24], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][24], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][24], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][24], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][24], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][24], 270.000000, 270.000000, 270.000000, 1.000000);
+
+    CasinoPTD[playerid][25] = CreatePlayerTextDraw(playerid, 358.201507, 247.870452, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][25], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][25], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][25], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][25], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][25], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][25], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][25], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][25], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][25], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][25], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][25], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][25], 270.000000, 180.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][26] = CreatePlayerTextDraw(playerid, 358.534851, 268.452209, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][26], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][26], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][26], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][26], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][26], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][26], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][26], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][26], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][26], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][26], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][26], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][26], 270.000000, 90.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][27] = CreatePlayerTextDraw(playerid, 358.534881, 287.998443, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][27], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][27], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][27], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][27], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][27], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][27], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][27], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][27], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][27], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][27], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][27], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][27], 270.000000, 270.000000, 270.000000, 1.000000);
+
+    CasinoPTD[playerid][28] = CreatePlayerTextDraw(playerid, 358.868194, 307.229888, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][28], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][28], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][28], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][28], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][28], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][28], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][28], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][28], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][28], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][28], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][28], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][28], 270.000000, 180.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][29] = CreatePlayerTextDraw(playerid, 358.868194, 327.081848, "");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][29], 0.000000, 0.000000);
+    PlayerTextDrawTextSize(playerid, CasinoPTD[playerid][29], 20.000000, 25.000000);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][29], 1);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][29], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][29], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][29], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][29], 0);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][29], 5);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][29], 0);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][29], 0);
+    PlayerTextDrawSetPreviewModel(playerid, CasinoPTD[playerid][29], 1851);
+    PlayerTextDrawSetPreviewRot(playerid, CasinoPTD[playerid][29], 270.000000, 180.000000, 0.000000, 1.000000);
+
+    CasinoPTD[playerid][30] = CreatePlayerTextDraw(playerid, 316.966369, 360.074005, "start: 30 sec");
+    PlayerTextDrawLetterSize(playerid, CasinoPTD[playerid][30], 0.192995, 1.371849);
+    PlayerTextDrawAlignment(playerid, CasinoPTD[playerid][30], 2);
+    PlayerTextDrawColor(playerid, CasinoPTD[playerid][30], -1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][30], 0);
+    PlayerTextDrawSetOutline(playerid, CasinoPTD[playerid][30], 0);
+    PlayerTextDrawBackgroundColor(playerid, CasinoPTD[playerid][30], 255);
+    PlayerTextDrawFont(playerid, CasinoPTD[playerid][30], 2);
+    PlayerTextDrawSetProportional(playerid, CasinoPTD[playerid][30], 1);
+    PlayerTextDrawSetShadow(playerid, CasinoPTD[playerid][30], 0);
+    return 1;
+}
